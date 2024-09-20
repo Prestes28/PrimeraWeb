@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #header {
+    /* background-color: #343a40; */
+    background-image:url(Yo.jpg);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  header h1 {
+    font-family: fantasy;
+    color:beige;
+    font-size: 5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    -webkit-text-stroke: 0.03em black; /* Delineado de 2px de grosor y color negro */
+    max-width: 100%;
+    line-height: 1.2;
+  }
+  .card-body {
+    background-color: #343a40;
+  }
+  .subtitulo {
+    font-family: fantasy;
+    color:beige;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    -webkit-text-stroke: 0.03em black;
+    max-width: 100%;
+    line-height: 1.2;
+  }
+ section h2 {
+  color: lightblue;
+ }
+ .list-group-item {
+  color: lightblue;
+  border: darkgrey;
+ }
+  .card-title {
+    font-weight: bold;
+    color: lightblue;
+  }
+  .card-text {
+    color: lightblue;
+  }
+  label {
+    color:lightblue;
+  }
+  footer {
+    background-color: #343a40;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  #contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  
