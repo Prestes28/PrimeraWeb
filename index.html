@@ -9,7 +9,7 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Prestes Ezequiel</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +29,7 @@
   <header class="text-white text-center py-5" id = "header">
     <!-- <img src="Yo.jpg" alt="" data-aos="fade-in" class=""> -->
     <div class="container">
-      <h1 id="presentacion">Hola, soy Prestes Ezequiel</h1>
+      <h1 id="presentacion">Prestes Ezequiel</h1>
       <p class="subtitulo">Estudiante de Gestión, Programación e Innovación Tecnológica con un gran interés en la programación web.</p>
     </div>
   </header>
@@ -37,38 +37,48 @@
   <!-- Sección de Proyectos -->
   <section id="proyectos" class="py-5 bg-dark">
     <div class="container">
-      <h2 class="text-center">Proyectos</h2>
+      <h2 class="text-center text-light">Proyectos</h2>
       <div class="row">
         <!-- Proyecto 1 -->
-        <div class="col-md-4">
-          <div class="card mb-4">
+        <div class="col-md-4 mt-4  ">
+          <div class="card mb-4 h-100">
+            <img src="assets/img/pagina.png" class="card-img-top" alt="Proyecto 1">
             <div class="card-body">
               <h5 class="card-title">Proyecto 1: Portfolio Web</h5>
               <p class="card-text">Un sitio web personal para mostrar mis proyectos y habilidades.</p>
               <p class="card-text"><strong>Tecnologías:</strong> HTML, CSS, JavaScript, Bootstrap</p>
-              <a href="https://github.com/Prestes28/PrimeraWeb" class="btn btn-primary">Ver en GitHub</a>
+              <div class="d-flex justify-content-center"> 
+                <a href="https://github.com/Prestes28/PrimeraWeb" target="_blank" class="btn btn-primary  ">Ver en GitHub</a>
+              </div>
             </div>
           </div>
         </div>
         <!-- Proyecto 2 -->
-        <div class="col-md-4">
-          <div class="card mb-4">
+        <div class="col-md-4 mt-4">
+          <div class="card mb-4 h-100">
+            <img src="assets/img/finanzas.png" class="card-img-top" alt="Proyecto 2">
             <div class="card-body">
               <h5 class="card-title">Proyecto 2: Finanzas Plus</h5>
               <p class="card-text">Una aplicacion movil para gestionar las finanzas personales.</p>
               <p class="card-text"><strong>Tecnologías:</strong> HTML, CSS, JavaScript</p>
-              <a href="https://github.com/Prestes28/Finanzas_Plus" class="btn btn-primary">Ver en GitHub</a>
+              <div class="d-flex justify-content-center"> 
+               <a href="https://github.com/Prestes28/Finanzas_Plus" target="_blank" class="btn btn-primary m-1">Ver en GitHub</a>
+               <a href="https://prestes28.github.io/Finanzas_Plus/" target="_blank" class="btn btn-primary m-1">Probar</a>
+              </div>
             </div>
           </div>
         </div>
         <!-- Proyecto 3 -->
-        <div class="col-md-4">
-          <div class="card mb-4">
+        <div class="col-md-4 mt-4">
+          <div class="card mb-4 h-100">
+            <img src="assets/img/agenda.png" class="card-img-top" alt="Proyecto 3">
             <div class="card-body">
               <h5 class="card-title">Proyecto 3: Agenda electronica</h5>
-              <p class="card-text">Una agenda que permine cargar hasta 10 tareas a realizar con la posibilidad de generarun txt.</p>
+              <p class="card-text">Una agenda que permite cargar hasta 10 tareas a realizar con la posibilidad de generar un txt.</p>
               <p class="card-text"><strong>Tecnologías:</strong> Java, NetBeans</p>
-              <a href="https://github.com/Prestes28/Agenda_Electronica" class="btn btn-primary">Ver en GitHub</a>
+              <div class="d-flex justify-content-center"> 
+                <a href="https://github.com/Prestes28/Agenda_Electronica" target="_blank" class="btn btn-primary">Ver en GitHub</a>
+              </div>
             </div>
           </div>
         </div>
@@ -80,16 +90,55 @@
   <section id="habilidades" class="py-5 bg-dark">
     <div class="container">
       <h2 class="text-center">Habilidades</h2>
-      <ul class="list-group list-group-flush ">
-        <li class="list-group-item bg-dark">HTML5</li>
-        <li class="list-group-item bg-dark">CSS3</li>
-        <li class="list-group-item bg-dark">JavaScript</li>
-        <li class="list-group-item bg-dark">Python</li>
-        <li class="list-group-item bg-dark">MySQL</li>
-        <li class="list-group-item bg-dark">Bootstrap 5</li>
-        <li class="list-group-item bg-dark">Git y GitHub</li>
-      </ul>
-    </div>
+      <div class="row d-flex justify-content-center align-items-center">
+          <!-- HTML5 -->
+          <div class="col-md-3 skill-card">
+              <img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="HTML5 Logo">
+              <h5>HTML5</h5>
+          </div>
+          <!-- CSS3 -->
+          <div class="col-md-3 skill-card">
+              <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="CSS3 Logo">
+              <h5>CSS3</h5>
+          </div>
+          <!-- Bootstrap -->
+          <div class="col-md-3 skill-card">
+              <img src="https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg" alt="Bootstrap Logo">
+              <h5>Bootstrap</h5>
+          </div>
+          <!-- Python -->
+          <div class="col-md-3 skill-card">
+              <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python Logo">
+              <h5>Python</h5>
+          </div>
+          <!-- JavaScript -->
+          <div class="col-md-3 skill-card">
+              <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" alt="JavaScript Logo">
+              <h5>JavaScript</h5>
+          </div>
+           <!-- Java -->
+           <div class="col-md-3 skill-card">
+            <img src="https://cdn.worldvectorlogo.com/logos/java.svg" alt="Java Logo">
+            <h5>Java</h5>
+        </div>
+          <!-- MySQL -->
+          <div class="col-md-3 skill-card">
+              <img src="https://cdn.worldvectorlogo.com/logos/mysql-4.svg" alt="MySQL Logo">
+              <h5>MySQL</h5>
+          </div>
+          <!-- Git -->
+          <div class="col-md-3 skill-card">
+              <img src="https://cdn.worldvectorlogo.com/logos/git-icon.svg" alt="Git Logo">
+              <h5>Git</h5>
+          </div>
+          <!-- GitHub -->
+          <div class="col-md-3 skill-card">
+              <img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" alt="GitHub Logo">
+              <h5>GitHub</h5>
+          </div>
+          
+      </div>
+  </div>
   </section>
 
   <!-- Sección de Contacto -->
@@ -114,12 +163,30 @@
     </div>
   </section>
 
-  <!-- Enlaces a redes sociales -->
-  <footer class="bg-dark text-white text-center py-3">
-    <p>Sígueme en:</p>
-    <a href="https://github.com/Prestes28" class="text-white me-2">GitHub</a>
-    <a href="https://www.linkedin.com/in/ezequiel-prestes-b27246273/" class="text-white">LinkedIn</a>
-  </footer>
+  <a href="https://wa.me/tu-numero-de-whatsapp" target="_blank" class="whatsapp-float">
+    <img src="https://cdn.worldvectorlogo.com/logos/whatsapp-8.svg" alt="WhatsApp" width="50">
+  </a>
+
+ <!-- Enlaces a redes sociales -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>Sígueme en:</p>
+  <div class="col d-flex justify-content-center align-items-center">
+    <!-- GitHub -->
+    <div class="skill-card">
+      <a href="https://github.com/Prestes28" target="_blank">
+        <img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" alt="GitHub Logo" width="50">
+      </a>
+    </div>
+    <!-- LinkedIn -->
+    <div class="skill-card">
+      <a href="https://www.linkedin.com/in/ezequiel-prestes-b27246273/" target="_blank">
+        <img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon.svg" alt="LinkedIn Logo" width="50">
+      </a>
+    </div>
+  </div>
+</footer>
+
+    
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
