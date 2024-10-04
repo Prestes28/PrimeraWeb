@@ -19,7 +19,7 @@ body {
   header h1 {
     font-family: "Pixelify Sans", sans-serif;
     color:beige;
-    font-size: 5rem;
+    font-size: clamp(35px, 7vw, 90px);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
     -webkit-text-stroke: 0.03em black; /* Delineado de 2px de grosor y color negro */
     max-width: 100%;
@@ -31,7 +31,7 @@ body {
   .subtitulo {
     font-family: "Pixelify Sans", sans-serif;
     color:beige;
-    font-size: 2rem;
+    font-size: clamp(25px, 3vw, 48px);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     -webkit-text-stroke: 0.03em black;
     max-width: 100%;
@@ -112,7 +112,7 @@ h5 {
 }
 .cont{
   width: 30%;
-  min-width: 4cm;
+  min-width: 6cm;
   height:auto;
 }
 .cont2{
