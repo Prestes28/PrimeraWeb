@@ -1,10 +1,11 @@
 body {
-    font-family: 'Arial', sans-serif;
+  font-family: "Pixelify Sans", sans-serif;
   }
   
   #header {
     /* background-color: #343a40; */
-    background-image:url(assets/img/Yo.jpg);
+    background-image:url(assets/img/fondo.jpg);
+    
     position: relative;
     width: 100%;
     height: 100vh;
@@ -16,7 +17,7 @@ body {
     text-align: center;
   }
   header h1 {
-    font-family: fantasy;
+    font-family: "Pixelify Sans", sans-serif;
     color:beige;
     font-size: 5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
@@ -28,9 +29,9 @@ body {
     background-color: #343a40;
   }
   .subtitulo {
-    font-family: fantasy;
+    font-family: "Pixelify Sans", sans-serif;
     color:beige;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     -webkit-text-stroke: 0.03em black;
     max-width: 100%;
@@ -44,10 +45,12 @@ body {
   border: darkgrey;
  }
   .card-title {
+    font-family: "Pixelify Sans", sans-serif;
     font-weight: bold;
     color: lightblue;
   }
   .card-text {
+    font-family: "Pixelify Sans", sans-serif;
     color: lightblue;
   }
   label {
@@ -93,4 +96,26 @@ h5 {
   height: 60px;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+.foto {
+    width: 100%;
+    height: auto ;
+    border-radius:50% ;
+    position: relative;
+}
+.titulo {
+  display: flex; /* Aplica Flexbox */
+  flex-direction: row; /* La imagen y el texto estarán en fila (horizontal) */
+  align-items: center; /* Alinea verticalmente al centro */
+  justify-content: center; /* Deja espacio entre la imagen y el texto */
+  flex-wrap: wrap; 
+}
+.cont{
+  width: 30%;
+  min-width: 4cm;
+  height:auto;
+}
+.cont2{
+  width: 70%;
+  height: auto;
 }
