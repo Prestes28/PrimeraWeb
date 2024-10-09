@@ -20,6 +20,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#Sobre mi"> Sobre mi</a></li>
           <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
           <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
           <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
@@ -37,12 +38,19 @@
           </div>
           <div class="cont2">
             <h1 id="presentacion">Prestes Ezequiel</h1>
-            <p class="subtitulo">Estudiante de Gestión, Programación e Innovación Tecnológica con un gran interés en la programación web.</p>
+            <p class="subtitulo">Innovación y Desarrollo Web.</p>
           </div>
         </div>
       </div>
   </header>
-
+  <section id="Sobre mi" class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="text-center text-light"> Sobre mi</h2>
+      <p class="text-break text-light text-indent"> Soy estudiante de la tecnicatura en Gestion de Programación e Innovación Tencológica y Digital. Me considero una persona amable, responsable y ordenada. Me gustan los desafíos y
+        proponerme metas para poder mejorar como persona. Estoy dispuesto a adquirir nuevos conocimientos y capacidades útiles
+        para mi carrera como profesional. </p>
+    </div>
+  </section>
   <!-- Sección de Proyectos -->
   <section id="proyectos" class="py-5 bg-dark">
     <div class="container">
@@ -154,23 +162,24 @@
   <section id="contacto" class="py-5 bg-dark">
     <div class="container">
       <h2 class="text-center">Contacto</h2>
-      <form>
+      <form action="https://formspree.io/f/mgvewqge" method= "POST">
         <div class="mb-3">
           <label for="nombre" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+          <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Tu nombre" required>
         </div>
         <div class="mb-3">
           <label for="email" class="form-label">Correo Electrónico</label>
-          <input type="email" class="form-control" id="email" placeholder="Tu correo" required>
+          <input type="email" class="form-control" name="email" id="email" placeholder="Tu correo" required>
         </div>
         <div class="mb-3">
           <label for="mensaje" class="form-label">Mensaje</label>
-          <textarea class="form-control" id="mensaje" rows="4" placeholder="Tu mensaje" required></textarea>
+          <textarea class="form-control" name="mensaje" id="mensaje" rows="4" placeholder="Tu mensaje" required></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
     </div>
   </section>
+
 <!-- WhatsApp -->
   <a href="https://wa.me/3764932900" target="_blank" class="whatsapp-float">
     <img src="https://cdn.worldvectorlogo.com/logos/whatsapp-8.svg" alt="WhatsApp" width="50">
