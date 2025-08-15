@@ -27,8 +27,7 @@ body {
     text-align: center;
   }
   header h1 {
-    color:beige;
-    font-size: clamp(25px, 3vw, 90px);
+    font-size: clamp(35px, 4vw, 90px);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
     -webkit-text-stroke: 0.03em black; /* Delineado de 2px de grosor y color negro */
     max-width: 100%;
@@ -39,8 +38,7 @@ body {
     height: max-content;
   }
   .subtitulo {
-    color:beige;
-    font-size: clamp(15px, 3vw, 48px);
+    font-size: clamp(25px, 3vw, 48px);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     -webkit-text-stroke: 0.03em black;
     max-width: 100%;
